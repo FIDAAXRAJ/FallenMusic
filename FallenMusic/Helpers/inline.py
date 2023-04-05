@@ -33,11 +33,16 @@ close_key = InlineKeyboardMarkup(
 buttons = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🚩resume🚩", callback_data="resume_cb"),
-            InlineKeyboardButton(text="🚩pause🚩", callback_data="pause_cb"),
-            InlineKeyboardButton(text="🚩skip", callback_data="skip_cb"),
-            InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"),
-            InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"), 
+            
+InlineKeyboardButton(text="🚩resume🚩", callback_data="resume_cb"),
+            
+InlineKeyboardButton(text="🚩pause🚩", callback_data="pause_cb"),
+           
+InlineKeyboardButton(text="🚩skip", callback_data="skip_cb"),
+           
+InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"),
+            
+InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"), 
         ]
     ]
 )
