@@ -37,7 +37,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🚩II🚩", callback_data="pause_cb"),
             InlineKeyboardButton(text="🚩‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="🚩▢🚩", callback_data="end_cb"),
-            InlineKeyboardButton(text="🚩✍︎🚩", callback_data="owner_cb), 
+            InlineKeyboardButton(text="🚩III🚩", callback_data="end_cb"), 
         ]
     ]
 )
