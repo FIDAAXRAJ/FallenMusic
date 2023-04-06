@@ -38,15 +38,13 @@ async def fallen_st(_, message: Message):
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
                 m = await message.reply_text("caption=f"
-ʜᴇʟʟᴏ, ɪ ᴀᴍ Pᴏɪsᴏɴ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴘʟᴀʏ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ › : Pᴏɪsᴏɴ
 ┣★ ᴜᴘᴅᴀᴛᴇs › : ʟᴏᴠᴇʀs ᴘᴏɪɴᴛ
 ┣★ sᴜᴘᴘᴏʀᴛ › : Pᴏɪsᴏɴ ᴄʜᴀᴛ
 ┣★ Bʀᴀɴᴅᴇᴅ ᴘʜᴏᴛᴏs › : ᴘʜᴏᴛᴏs
 ┣★ ʙʀᴏᴛʜᴇʀ › : ᴍʏ ʙʀᴏ
-┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ /help
+┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ 
 ┗━━━━━━━━━━━━━━━━━┛")
                 query = (str(cmd)).replace("info_", "", 1)
                 query = f"https://www.youtube.com/watch?v={query}"
