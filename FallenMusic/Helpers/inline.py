@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-@app.on_message(filters.command("start") & filters.private & ~filters.edited)
+
 async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https:https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
