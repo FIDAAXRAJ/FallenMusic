@@ -50,10 +50,6 @@ async def useradd(_, message: Message):
         ),
     )
 
-
-
-
-
 from pyrogram import filters
 from pyrogram.enums import ChatType, ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
