@@ -17,38 +17,7 @@
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-
-@app.on_message(filters.command("start") & filters.private & ~filters.edited)
-async def useradd(_, message: Message):
-    await message.reply_photo(
-        photo=f"https:https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-🚩 ʜᴇʟʟᴏ, ɪ ᴀᴍ Pᴏɪsᴏɴ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴘʟᴀʏ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ › : [Pᴏɪsᴏɴ](https://t.me/I_LOVE_YOU_PAGAL)
-┣★ ᴜᴘᴅᴀᴛᴇs › : [ʟᴏᴠᴇʀs ᴘᴏɪɴᴛ](https://t.me/LOVERS_POINTT)
-┣★ sᴜᴘᴘᴏʀᴛ › : [Pᴏɪsᴏɴ ᴄʜᴀᴛ](https://t.me/Dangerous_fighter_clan)
-┣★ Bʀᴀɴᴅᴇᴅ ᴘʜᴏᴛᴏs › : [ᴘʜᴏᴛᴏs](https://t.me/LOVERS_POINTT)
-┣★ ʙʀᴏᴛʜᴇʀ › : [ᴍʏ ʙʀᴏ](https://t.me/B_R_A_N_D_E_D_K_I_N_G)
-┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ /help
-┗━━━━━━━━━━━━━━━━━┛
-🚩 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ 🚩[ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/I_LOVE_YOU_PAGAL) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ Fɪᴅᴀᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
-                        url=f"https://t.me/FIDAA_MUSIC_BOT?startgroup=true",
-                    )
-                ]
-            ]
-        ),
-    )
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
 
 from pyrogram import filters
 from pyrogram.enums import ChatType, ParseMode
@@ -68,7 +37,18 @@ async def fallen_st(_, message: Message):
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
-                m = await message.reply_text("🚩jai shree ram har har Mahadev 🚩")
+                m = await message.reply_text("caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+photo=f"https:https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
+ʜᴇʟʟᴏ, ɪ ᴀᴍ Pᴏɪsᴏɴ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴘʟᴀʏ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ › : Pᴏɪsᴏɴ
+┣★ ᴜᴘᴅᴀᴛᴇs › : ʟᴏᴠᴇʀs ᴘᴏɪɴᴛ
+┣★ sᴜᴘᴘᴏʀᴛ › : Pᴏɪsᴏɴ ᴄʜᴀᴛ
+┣★ Bʀᴀɴᴅᴇᴅ ᴘʜᴏᴛᴏs › : ᴘʜᴏᴛᴏs
+┣★ ʙʀᴏᴛʜᴇʀ › : ᴍʏ ʙʀᴏ
+┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ /help
+┗━━━━━━━━━━━━━━━━━┛")
                 query = (str(cmd)).replace("info_", "", 1)
                 query = f"https://www.youtube.com/watch?v={query}"
                 results = VideosSearch(query, limit=1)
