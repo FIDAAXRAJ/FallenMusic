@@ -28,19 +28,16 @@ from FallenMusic import BOT_USERNAME
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
-
-
 buttons = InlineKeyboardMarkup(
     [
-        [
-            
+      [           
 InlineKeyboardButton(text="🚩resume🚩", callback_data="resume_cb"), InlineKeyboardButton(text="🚩pause🚩", callback_data="pause_cb"),
            
 InlineKeyboardButton(text="🚩skip", callback_data="skip_cb"), InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"),
             
 InlineKeyboardButton(text="🚩end🚩", callback_data="end_cb"), 
         ]
-    ]
+       ]
 )
 
 
