@@ -37,8 +37,7 @@ async def fallen_st(_, message: Message):
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
-                m = await message.reply_text("caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-photo=f"https:https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
+                m = await message.reply_text("caption=f"
 ʜᴇʟʟᴏ, ɪ ᴀᴍ Pᴏɪsᴏɴ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴘʟᴀʏ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢ...
 ┏━━━━━━━━━━━━━━━━━┓
