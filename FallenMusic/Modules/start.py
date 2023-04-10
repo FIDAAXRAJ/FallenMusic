@@ -37,15 +37,7 @@ async def fallen_st(_, message: Message):
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
-                m = await message.reply_text("caption=f"
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ › : Pᴏɪsᴏɴ
-┣★ ᴜᴘᴅᴀᴛᴇs › : ʟᴏᴠᴇʀs ᴘᴏɪɴᴛ
-┣★ sᴜᴘᴘᴏʀᴛ › : Pᴏɪsᴏɴ ᴄʜᴀᴛ
-┣★ Bʀᴀɴᴅᴇᴅ ᴘʜᴏᴛᴏs › : ᴘʜᴏᴛᴏs
-┣★ ʙʀᴏᴛʜᴇʀ › : ᴍʏ ʙʀᴏ
-┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ 
-┗━━━━━━━━━━━━━━━━━┛")
+                m = await message.reply_text("caption=f"🚩Jai shree ram 🚩"
                 query = (str(cmd)).replace("info_", "", 1)
                 query = f"https://www.youtube.com/watch?v={query}"
                 results = VideosSearch(query, limit=1)
